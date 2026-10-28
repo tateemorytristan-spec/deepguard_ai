@@ -1,0 +1,56 @@
+# Local datasets and generated preprocessing outputs
+/Real-vid/
+/Fake-vid/
+/dataset_selected/
+/selected_dataset/
+/dataset_split/
+/extracted_frames/
+/Frames/
+/Face_crops/
+/training_frames/
+/training_face_crops/
+/training_features/
+
+# Model checkpoints, cached tensors, and archives
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Local reports, renderings, and temporary authoring files
+/output/
+/tmp/
+
+# Python environments, caches, and tooling output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and editor/system files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
